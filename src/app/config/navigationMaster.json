@@ -1,0 +1,34 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "link": "/admin/master",
+      "view": "MasterHome",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Solicitação de exame",
+      "link": "/admin/physician/request_exam",
+      "view": "RequestExamForm",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Relatório Solicitação de Exame",
+      "link": "/admin/master/report_request_exam",
+      "view": "ReportRequestExamForm",
+      "isRouteBtn": true
+    },
+    {
+      "label": "DOCUMENTOS",
+      "link": "/documents",
+      "view": "Documents",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Sair",
+      "link": "/login",
+      "view": "Login",
+      "isRouteBtn": true
+    }
+  ]
+}

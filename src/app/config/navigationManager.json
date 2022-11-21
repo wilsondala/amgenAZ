@@ -1,0 +1,40 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "link": "/admin/manager",
+      "view": "ManagerHome",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Solicitação de kits",
+      "link": "/admin/manager/kit_solicitation",
+      "view": "KitSolicitationForm",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Relatório Solicitação Kit",
+      "link": "/admin/manager/report_kit_solicitation",
+      "view": "ReportKitSolicitation",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Dados cadastrais",
+      "link": "/admin/edit_data_registration",
+      "view": "EditRegistrationDataForm",
+      "isRouteBtn": true
+    },
+    {
+      "label": "DOCUMENTOS",
+      "link": "/documents",
+      "view": "Documents",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Sair",
+      "link": "/login",
+      "view": "Login",
+      "isRouteBtn": true
+    }
+  ]
+}

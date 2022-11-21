@@ -1,0 +1,44 @@
+.modal {
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  z-index:100;
+  padding: 0.5rem;
+}
+
+.modal__content {
+  width: 100%;
+  min-height: 300vh;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 5rem;
+  color: red;
+}
+
+.modal__close-btn {
+  position: absolute;
+  right: 2.5rem;
+  top: 2.5rem;
+  z-index: 99999;
+}
+
+.modal__close-btn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modal__body {
+  padding: 1rem;
+}

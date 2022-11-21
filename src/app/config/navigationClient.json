@@ -1,0 +1,28 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "link": "/admin/client",
+      "view": "ClientHome",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Relatório Solicitação de Exame",
+      "link": "/admin/client/report_request_exam",
+      "view": "ReportRequestExamForm",
+      "isRouteBtn": true
+    },
+    {
+      "label": "DOCUMENTOS",
+      "link": "/documents",
+      "view": "Documents",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Sair",
+      "link": "/login",
+      "view": "Login",
+      "isRouteBtn": true
+    }
+  ]
+}

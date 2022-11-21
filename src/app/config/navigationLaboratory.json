@@ -1,0 +1,40 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "link": "/admin/laboratory",
+      "view": "LaboratoryHome",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Baixa de Exame",
+      "link": "/admin/laboratory/manage_exam",
+      "view": "ManageExamForm",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Relatório Solicitação de Exame",
+      "link": "/admin/laboratory/report_request_exam",
+      "view": "ReportRequestExamForm",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Dados cadastrais",
+      "link": "/admin/edit_data_registration",
+      "view": "EditRegistrationDataForm",
+      "isRouteBtn": true
+    },
+    {
+      "label": "DOCUMENTOS",
+      "link": "/documents",
+      "view": "Documents",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Sair",
+      "link": "/login",
+      "view": "Login",
+      "isRouteBtn": true
+    }
+  ]
+}

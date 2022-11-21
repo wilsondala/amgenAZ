@@ -1,0 +1,30 @@
+{
+  "links": [
+  
+    {
+      "label": "Solicitação de exame",
+      "link": "/admin/institution/request_exam",
+      "view": "PageInConstructionForm",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Relatório Solicitação de Exame",
+      "link": "/admin/institution/report_request_exam",
+      "view": "ReportRequestExamForm",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Meu Perfil",
+      "link": "/institution_profile",
+      "view": "InstitutionProfile",
+      "isRouteBtn": true
+    },
+    {
+      "label": "DOCUMENTOS",
+      "link": "/documents",
+      "view": "Documents",
+      "isRouteBtn": true
+    }
+   
+  ]
+}

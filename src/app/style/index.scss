@@ -1,0 +1,27 @@
+// common:
+@import "./common";
+
+// containers:
+@import "../containers/app/app";
+
+// views:
+@import "../views/home/home";
+@import "../views/login/login";
+@import "../views/physician_home/PhysicianHome";
+
+// components:
+@media (min-width: 1220px)
+{
+    .uk-grid+.uk-grid, .uk-grid-margin, .uk-grid>*>.uk-panel+.uk-panel {
+        margin-top:5px
+    }
+
+}
+
+h1 , h2, h3, h4, h5, h6{
+    margin-top: 10px;
+}
+
+hr{
+    margin: 5px;
+}

@@ -1,0 +1,774 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #1d9dd9;
+  letter-spacing: -0.04em;
+}
+
+h1 {
+  font-weight: clamp(500, 600, 700) !important;
+  font-size: clamp(3.5rem, 3vw, 2.8rem) !important;
+  line-height: clamp(20px, 44px, 42px) !important;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+/*
+@media screen and (max-width: 768px) {
+	input, select { margin-top: 15px !important}
+}
+
+/* UiKit Personalizar */
+
+.uk-link,
+a {
+  color: #1d9dd9;
+}
+.uk-link:hover,
+a:hover {
+  text-decoration: none;
+  color: #1d9dd9;
+}
+.uk-panel-hover {
+  color: #888;
+}
+
+/*NAVBAR */
+.uk-navbar-toggle {
+  color: #70befd;
+}
+
+.uk-navbar {
+  background: transparent;
+}
+.uk-navbar-nav > li {
+  background-color: #fccea2;
+  margin: 2px 2px;
+}
+.uk-navbar-nav > li > a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #70befd;
+}
+.uk-navbar-nav > li.uk-active > a {
+  background-color: #1d9dd9;
+  color: #fff;
+}
+.uk-navbar-nav > li.uk-open > a,
+.uk-navbar-nav > li:hover > a,
+.uk-navbar-nav > li > a:focus {
+  background-color: #70befd;
+  color: #70befd;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+/* FORMS INPUTS */
+.uk-form input:not([type]),
+.uk-form input[type="text"],
+.uk-form input[type="password"],
+.uk-form input[type="email"],
+.uk-form input[type="url"],
+.uk-form input[type="search"],
+.uk-form input[type="tel"],
+.uk-form input[type="number"],
+.uk-form input[type="datetime"],
+.uk-form input[type="datetime-local"],
+.uk-form input[type="date"],
+.uk-form input[type="month"],
+.uk-form input[type="time"],
+.uk-form input[type="week"],
+.uk-form input[type="color"],
+.uk-form select,
+.uk-form textarea {
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #ddd;
+}
+.uk-form input:not([type]):focus,
+.uk-form input[type="text"]:focus,
+.uk-form input[type="password"]:focus,
+.uk-form input[type="email"]:focus,
+.uk-form input[type="url"]:focus,
+.uk-form input[type="search"]:focus,
+.uk-form input[type="tel"]:focus,
+.uk-form input[type="number"]:focus,
+.uk-form input[type="datetime"]:focus,
+.uk-form input[type="datetime-local"]:focus,
+.uk-form input[type="date"]:focus,
+.uk-form input[type="month"]:focus,
+.uk-form input[type="time"]:focus,
+.uk-form input[type="week"]:focus,
+.uk-form input[type="color"]:focus,
+.uk-form select:focus,
+.uk-form textarea:focus {
+  border: none;
+  border: 1px solid #70befd;
+  background-color: #fff2e8;
+}
+
+.uk-button:not(:disabled) {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.uk-button {
+  border-radius: 5px;
+  min-width: 85px;
+}
+
+#Statements {
+  width: clamp(22rem, 10vw, 25rem) !important;
+  font-size: clamp(1rem, 0.8vw, 2rem) !important;
+  font-weight: 600;
+}
+
+/* ID's */
+#sc-header-title {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+#sc-slider {
+  color: #1d9dd9;
+}
+#sc-slider .uk-h4 {
+  font-weight: 400;
+}
+#sc-panels {
+  color: #1d9dd9;
+}
+#sc-panels h1 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #1d9dd9;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+#sc-panels h2 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #1d9dd9;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+#sc-panels .uk-panel-hover:hover {
+  color: #888;
+  border-radius: 5px;
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(238, 126, 40, 0.3);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(238, 126, 40, 0.3);
+  box-shadow: 0px 0px 5px 0px rgba(238, 126, 40, 0.3);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+footer {
+  width: 100%;
+  // position: relative;
+  clear: both;
+}
+#sc-footer {
+  margin-top: 50px;
+  background-color: white;
+}
+#sc-footer i {
+  margin-right: 10px;
+}
+#sc-admin-body .uk-navbar {
+  border-bottom: 2px solid #70befd;
+}
+#sc-admin-body .uk-navbar-nav > li {
+  background-color: white;
+  margin: 0;
+}
+#sc-admin-body .uk-navbar-nav > li.uk-open > a,
+.uk-navbar-nav > li:hover > a,
+.uk-navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #70befd;
+}
+.cs-table thead {
+  color: #1d9dd9;
+  background-color: #edf2f8;
+  border-bottom: 2px solid #537398;
+}
+.cs-table thead td,
+.uk-table thead th {
+  text-transform: uppercase;
+  padding-bottom: 2px;
+  text-align: center;
+}
+.cs-table tr {
+  border-bottom: 1px solid #eee;
+}
+
+div#slide.slide {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.dropzone {
+  width: 100%;
+  height: 190px;
+  border: 4px dashed #5a646e;
+  color: #0d315c;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  background: rgba(143, 151, 160, 0.133);
+  padding: 50px 0px 0px 0px;
+  margin-bottom: 30px;
+}
+.dropzone.drop-zone-accept {
+  color: white;
+  background-color: #afd8b9;
+}
+.dropzone.drop-zone-reject {
+  color: white;
+  background-color: #d8afaf;
+}
+
+div#slide.slide {
+  background: url(../images/Logo-amgen.png) 100% 90% no-repeat;
+  display: flex;
+  margin: auto;
+  padding: 0;
+}
+
+div#homeAmgen {
+  width: 100%;
+  height: 600px;
+  // margin-top: 120px;
+  // margin-right: 5px;
+  // margin-left: 530px;
+}
+
+div#homeAmgen p {
+  display: flex;
+  padding-right: 2vh;
+  color: white;
+  text-align: end;
+  word-wrap: normal;
+}
+
+.logoHome {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../images/Logo-amgen.png);
+  background-repeat: no-repeat;
+  
+}
+
+div#menuOntrack li:hover span {
+  color: #a2df5c;
+}
+
+div#menuOntrack li:select span {
+  display: inline;
+  color: #a2df5c;
+}
+
+.ReactTable {
+  background: rgb(255, 255, 255);
+}
+
+div#footer {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+div#farmaco p {
+  float: right;
+  max-width: 615px;
+  padding-right: 2vh;
+  text-align: center;
+  word-wrap: normal;
+}
+
+div#telefone {
+  display: block;
+  float: right;
+  word-wrap: break-word;
+  min-width: 160px;
+  padding-right: 2vh;
+}
+
+
+
+div#titleAmgenLogin h2{
+  color: rgb(37, 97, 164);
+}
+
+@media screen and (min-width: 767px) {
+  .mobile {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 959px) {
+  .mobile {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.field-padding-right {
+  padding-right: 15px;
+}
+
+
+
+//novo menu///@at-root
+
+/*NAVBAR */
+.uk-navbar-toggle {
+  color: #1E9DD9;
+}
+
+.uk-navbar {
+  background: transparent;
+}
+.uk-navbar-nav > li {
+  background-color: #FFFFFF;
+  margin: 2px 2px;
+}
+.uk-navbar-nav > li > a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+}
+.uk-navbar-nav > li.uk-active > a {
+  background-color: #1E9DD9;
+  color: #fff;
+}
+.uk-navbar-nav > li.uk-open > a,
+.uk-navbar-nav > li:hover > a,
+.uk-navbar-nav > li > a:focus {
+  background-color: #1E9DD9;
+  color: #1E9DD9;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+/* FORMS INPUTS */
+.uk-form input:not([type]),
+.uk-form input[type="text"],
+.uk-form input[type="password"],
+.uk-form input[type="email"],
+.uk-form input[type="url"],
+.uk-form input[type="search"],
+.uk-form input[type="tel"],
+.uk-form input[type="number"],
+.uk-form input[type="datetime"],
+.uk-form input[type="datetime-local"],
+.uk-form input[type="date"],
+.uk-form input[type="month"],
+.uk-form input[type="time"],
+.uk-form input[type="week"],
+.uk-form input[type="color"],
+.uk-form select,
+.uk-form textarea {
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #ddd;
+}
+.uk-form input:not([type]):focus,
+.uk-form input[type="text"]:focus,
+.uk-form input[type="password"]:focus,
+.uk-form input[type="email"]:focus,
+.uk-form input[type="url"]:focus,
+.uk-form input[type="search"]:focus,
+.uk-form input[type="tel"]:focus,
+.uk-form input[type="number"]:focus,
+.uk-form input[type="datetime"]:focus,
+.uk-form input[type="datetime-local"]:focus,
+.uk-form input[type="date"]:focus,
+.uk-form input[type="month"]:focus,
+.uk-form input[type="time"]:focus,
+.uk-form input[type="week"]:focus,
+.uk-form input[type="color"]:focus,
+.uk-form select:focus,
+.uk-form textarea:focus {
+  border: none;
+  border: 1px solid #1E9DD9;
+  background-color: #fff2e8;
+}
+
+.uk-button:not(:disabled) {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.uk-button {
+  border-radius: 5px;
+  min-width: 85px;
+}
+
+#Statements {
+  width: clamp(22rem, 10vw, 25rem) !important;
+  font-size: clamp(1rem, 0.8vw, 2rem) !important;
+  font-weight: 600;
+}
+
+/* ID's */
+#sc-header-title {
+  margin-top: 50px;
+  margin-bottom: 40px;
+
+}
+#sc-slider {
+  color: #1E9DD9;
+}
+#sc-slider .uk-h4 {
+  font-weight: 400;
+}
+#sc-panels {
+  color: #1E9DD9;
+}
+#sc-panels h1 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #1d9dd9;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+#sc-panels h2 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #1d9dd9;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+#sc-panels .uk-panel-hover:hover {
+  color: #888;
+  border-radius: 5px;
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(238, 126, 40, 0.3);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(238, 126, 40, 0.3);
+  box-shadow: 0px 0px 5px 0px rgba(238, 126, 40, 0.3);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+footer {
+  width: 100%;
+  position: relative;
+  clear: both;
+  bottom: 0;
+
+}
+
+#sc-footer {
+  margin-top: 150px;
+  background-color: white;
+
+}
+
+#sc-footer i {
+  margin-right: 10px;
+}
+#sc-admin-body .uk-navbar {
+  border-bottom: 2px solid #1E9DD9;
+}
+#sc-admin-body .uk-navbar-nav > li {
+  background-color: white;
+  margin: 0;
+}
+#sc-admin-body .uk-navbar-nav > li.uk-open > a,
+.uk-navbar-nav > li:hover > a,
+.uk-navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #1E9DD9;
+}
+.cs-table thead {
+  color: #1D9DC2;
+  background-color: #edf2f8;
+  border-bottom: 2px solid #537398;
+}
+.cs-table thead td,
+.uk-table thead th {
+  text-transform: uppercase;
+  padding-bottom: 2px;
+  text-align: center;
+}
+.cs-table tr {
+  border-bottom: 1px solid #eee;
+}
+
+div#slide.slide {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  // background-image: url('../images/BemVindoProgramaOnTrack.png');
+}
+
+.dropzone {
+  width: 100%;
+  height: 190px;
+  border: 4px dashed #5a646e;
+  color: #0d315c;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  background: rgba(143, 151, 160, 0.133);
+  padding: 50px 0px 0px 0px;
+  margin-bottom: 30px;
+}
+.dropzone.drop-zone-accept {
+  color: white;
+  background-color: #afd8b9;
+}
+.dropzone.drop-zone-reject {
+  color: white;
+  background-color: #d8afaf;
+}
+
+div#homeOntrack {
+  width: 100%;
+  max-width: 400px;
+  height: 600px;
+  margin-top: 100px;
+  margin-right: 5px;
+  margin-left: 130px;
+  float: right;
+
+}
+
+div#homeOntrack p {
+  display: flex;
+  padding-right: 2vh;
+  color: white;
+  text-align: end;
+  word-wrap: normal;
+}
+
+
+div#menuOntrack li:hover span {
+  color: #1E9DD9;
+}
+
+div#menuOntrack li:select span {
+  display: inline;
+  color: #1D9DC2;
+}
+
+.ReactTable {
+  background: rgb(255, 255, 255);
+}
+
+div#footer {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+}
+
+div#farmaco p {
+  float: right;
+  max-width: 615px;
+  padding-right: 2vh;
+  text-align: center;
+  word-wrap: normal;
+}
+
+div#telefone {
+  display: block;
+  float: right;
+  word-wrap: break-word;
+  min-width: 160px;
+  padding-right: 2vh;
+}
+
+div#footerOntrack {
+  text-align: center;
+  align-content: center;
+  padding-top: 50px;
+  margin-bottom: -10px;
+}
+
+div#titleOntrack h2{
+  font-size: 28px;
+  padding-left: 55px;
+  padding-right: 55px;
+  color: white;
+}
+
+div#titleOntrackLogin h2{
+  font-size: 21px;
+  align-content: center;
+  padding-right: 45px;
+  padding-left: 20px;
+  color: rgb(250, 248, 248);
+}
+
+@media screen and (min-width: 767px) {
+  .mobile {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 959px) {
+  .mobile {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
+// style menu AMGEN
+
+$dropdown-width: 200px;
+
+.new-menu {
+
+  display: flex;
+  left: 600px;
+
+
+
+  & ul {
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+
+  }
+
+  & > a {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+    background-color: #1E9DD9;
+    margin: 0 2px ;
+
+
+  }
+
+  & > a:nth-child(2) {
+    padding: 0;
+    animation: menu-collapse .5s;
+  }
+
+  & > a:nth-child(2) ul,
+  & > a:nth-child(2) ul li {
+    margin: 0;
+  }
+
+  & > a:nth-child(2):hover,
+  & > a:nth-child(2):hover ul,
+  & > a:nth-child(2):hover ul li {
+    animation: menu-expand .5s;
+    width: $dropdown-width;
+    display: block;
+  }
+
+  @keyframes menu-expand {
+    0% {
+        width: 69.25px;
+    }
+    100% {
+        width: $dropdown-width;
+    }
+  }
+
+  @keyframes menu-collapse {
+    0% {
+      width: $dropdown-width;
+    }
+    100% {
+      width: 69.25px;
+    }
+  }
+}
+
+.menu-hover:hover {
+  color: #fff;
+  background-color: #1E9DD9;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+// css de distanciamento Radio NÃO SOU ATENDIDO POR UM REPRESENTANTE DA SIGVARIS + 1
+input[type=radio]  {
+    margin-right: 4px;
+}
+// cors = cross origin request
+
+.uk-navbar-nav > li > a {
+  padding: 0 10px;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+ 
+}
+
+.uk-button-color{
+  color: #44484b;
+}

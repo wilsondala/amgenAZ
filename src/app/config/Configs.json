@@ -1,0 +1,213 @@
+{
+    "TipoDeExame": {
+        "IHQ": 516,
+        "NGS": 517
+    },
+    "UF": [
+        {
+            "value": "",
+            "text": "Selecione"
+        },
+        {
+            "value": "AC",
+            "text": "AC"
+        },
+        {
+            "value": "AL",
+            "text": "AL"
+        },
+        {
+            "value": "AM",
+            "text": "AM"
+        },
+        {
+            "value": "AP",
+            "text": "AP"
+        },
+        {
+            "value": "BA",
+            "text": "BA"
+        },
+        {
+            "value": "CE",
+            "text": "CE"
+        },
+        {
+            "value": "DF",
+            "text": "DF"
+        },
+        {
+            "value": "ES",
+            "text": "ES"
+        },
+        {
+            "value": "GO",
+            "text": "GO"
+        },
+        {
+            "value": "MA",
+            "text": "MA"
+        },
+        {
+            "value": "MG",
+            "text": "MG"
+        },
+        {
+            "value": "MS",
+            "text": "MS"
+        },
+        {
+            "value": "MT",
+            "text": "MT"
+        },
+        {
+            "value": "PA",
+            "text": "PA"
+        },
+        {
+            "value": "PB",
+            "text": "PB"
+        },
+        {
+            "value": "PE",
+            "text": "PE"
+        },
+        {
+            "value": "PI",
+            "text": "PI"
+        },
+        {
+            "value": "PR",
+            "text": "PR"
+        },
+        {
+            "value": "RJ",
+            "text": "RJ"
+        },
+        {
+            "value": "RN",
+            "text": "RN"
+        },
+        {
+            "value": "RO",
+            "text": "RO"
+        },
+        {
+            "value": "RR",
+            "text": "RR"
+        },
+        {
+            "value": "RS",
+            "text": "RS"
+        },
+        {
+            "value": "SC",
+            "text": "SC"
+        },
+        {
+            "value": "SE",
+            "text": "SE"
+        },
+        {
+            "value": "SP",
+            "text": "SP"
+        },
+        {
+            "value": "TO",
+            "text": "TO"
+        }
+    ],
+    "ReportTypeIQH": 6,
+    "ReportTypeNGS": 7,
+    "ReportTypeBegin": 2,
+    "AnatomopathologicalReport": 8,
+    "ConsentForm": 9,
+    "TransportDeclaration": 10,
+    "ExamPrescription": 11,
+    "ReportImmunohistochemistry":14,
+    "Foundation": {
+        "CamCod": 162,
+        "LaboratoryName": "FOUNDATION MEDICINE",
+        "ExamsName": [
+            "FOUNDATIONONE CDx + PD-L1"
+        ]
+    },
+    "Status": [
+        {
+            "Id": 1,
+            "Description": "Agendado"
+        },
+        {
+            "Id": 2,
+            "Description": "Concluído"
+        },
+        {
+            "Id": 3,
+            "Description": "Cancelado"
+        },
+        {
+            "Id": 4,
+            "Description": "Amostra Coletada"
+        },
+        {
+            "Id": 5,
+            "Description": "Em Análise"
+        },
+        {
+            "Id": 6,
+            "Description": "Pendente"
+        },
+        {
+            "Id": 7,
+            "Description": "Pendente Aprovação Bayer"
+        },
+        {
+            "Id": 8,
+            "Description": "Negado"
+        }
+    ],
+    "genders": [
+        {
+            "value": "",
+            "text": "Selecione"
+        },
+        {
+            "value": 1,
+            "text": "Masculino"
+        },
+        {
+            "value": 2,
+            "text": "Feminino"
+        }
+    ],
+    "yesOrNo": [
+        {
+            "value": "",
+            "text": "Selecione"
+        },
+        {
+            "value": "1",
+            "text": "Sim"
+        },
+        {
+            "value": "2",
+            "text": "Não"
+        }
+        
+    ],
+    "origins": [
+        {
+            "value": "",
+            "text": "Selecione"
+        },
+        {
+            "value": "0",
+            "text": "Público"
+        },
+        {
+            "value": "1",
+            "text": "Privado"
+        }
+        
+    ]    
+}

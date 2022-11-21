@@ -1,0 +1,127 @@
+@import "./_vars";
+@import "./_mixins";
+
+.containersCustom {
+  padding-left: $CONTAINER_CUSTOM_PADDING_LEFT;
+  padding-right: $CONTAINER_CUSTOM_PADDING_RIGHT;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.view-enter {
+  @include fade-in(0s, 0.7s, ease-in);
+   z-index: 9999;
+ }
+.menu-icon {
+  margin: 10px 10px 10px 10px;
+}
+
+.boxed {
+  padding: 5px 5px 5px 5px;
+}
+
+/* colored texts */
+.black {
+  color: #2061a4;;
+}
+
+.black:hover{
+  color: #1d9dd9;
+}
+
+.green {
+  color: rgb(0,100,0);
+}
+
+.red {
+  color: rgb(100,0,0);
+}
+
+.client-menu {
+  background-color: white!important;
+}
+
+.client-menu-active, .client-menu:hover {
+  background-color: #1d9dd9 !important;
+}
+
+.height {
+  min-height: 19px;
+}
+
+.text-white {
+  color: #0F1525!important;
+}
+
+.margin-top-az {
+  margin-top: 20px;
+}
+
+.main-color-text {
+  color: #1d9dd9!important;
+}
+
+label.uk-form-label {
+  color: #1d9dd9!important;
+}
+
+.main-color {
+  background-color: #0F1525!important;
+}
+
+.client-color:not(:disabled) {
+  color:#0F1525!important;
+  background-color: #1d9dd9 !important;
+}
+
+.client-color:hover {
+  background-color: #1878a5!important;
+}
+
+.client-border {
+  border-radius: 5px!important;
+  border: 1px solid #DDDDDD!important;
+}
+
+.uk-button-primary{
+  color:#0F1525!important;
+  background-color: #1d9dd9 !important;
+}
+
+.uk-button-primary:hover{
+  background-color: #1878a5!important;
+}
+
+.uk-navbar-flip{
+  position: relative;
+  width: 80%;
+}
+
+.uk-button-success{
+  color:#0F1525!important;
+  background-color: #1d9dd9 !important;
+}
+
+.uk-button-success:hover{
+  color:#0F1525!important;
+  background-color: #1878a5!important;
+}
+
+.button-generate-excel{
+  background-color: #b7ce02!important;
+}
+
+.button-generate-excel:hover{
+  background-color: #90a300!important;
+}
+
+
+.green-button {
+  color: black;
+}
+
+.green-button:hover{
+  background-color: #a2df5c;
+}

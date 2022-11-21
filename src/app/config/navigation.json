@@ -1,0 +1,17 @@
+{
+  "links": [
+    {
+      "label":      "Login",
+      "link":       "/login",
+      "view":       "Login",
+      "isRouteBtn": true
+    },
+    {
+      "label":      "Cadastre-se",
+      "link":       "/register_menu",
+      "view":       "RegisterMenuForm",
+      "isRouteBtn": true
+    }
+    
+  ]
+}

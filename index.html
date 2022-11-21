@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Programa Amgen</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="Content-Security-Policy"
+    content="script-src 'self' https://* 'unsafe-inline' 'unsafe-eval'; script-src-elem 'self' https://* 'unsafe-inline' 'unsafe-eval';">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Programa Amgen">
+  <meta name="author" content="AzimuteMed">
+</head>
+
+<body>
+  <section id="root"></section>
+  <script type="text/javascript" src="/public/assets/bundle.js"></script>
+  <script type="text/javascript">
+    var onloadCallback = function () {
+
+    };
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+  </script>
+  <script type="text/javascript">
+    mobileUser = function (PushId) {
+      sessionStorage.setItem("mobileIdSession", PushId);
+    }
+  </script>
+</body>
+
+</html>

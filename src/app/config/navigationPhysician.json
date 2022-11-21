@@ -1,0 +1,40 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "link": "/admin/physician",
+      "view": "PhysicianHome",
+      "isRouteBtn": true
+    },
+    {
+      "label": "Solicitação de exame",
+      "link": "/admin/physician/request_exam",
+      "view": "RequestExamForm",
+      "isRouteBtn": true
+    },
+    {
+      "label":      "Relatório Solicitação de Exame",
+      "link":       "/admin/physician/report_request_exam",
+      "view":       "ReportRequestExamForm",
+      "isRouteBtn": true
+    },
+    {
+      "label":      "Meu Perfil",
+      "link":       "/physician_profile",
+      "view":       "PhysicianProfile",
+      "isRouteBtn": true
+    },
+    {
+      "label":      "DOCUMENTOS",
+      "link":       "/documents",
+      "view":       "Documents",
+      "isRouteBtn": true
+    }, 
+    {
+      "label": "Sair",
+      "link": "/login",
+      "view": "Login",
+      "isRouteBtn": true
+    }
+  ]
+}
